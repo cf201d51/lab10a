@@ -1,0 +1,97 @@
+* {
+    outline: dotted 2.5px rgba(0, 255, 0, 0.658);
+   }
+   /* `Clear Floated Elements
+   ----------------------------------------------------------------------------------------------------*/
+   /* http://sonspring.com/journal/clearing-floats */
+   .clear {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+   }
+
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+
+   h1 {
+       font-family: 'Lobster', cursive;
+       font-size: 2em;
+
+   }
+
+   #fork {
+       float: left;
+   }
+
+   #blog {
+    font-family: 'Roboto', sans-serif;
+    font-size: .6em;
+   }
+
+  #preview {
+    background-image: url('../img/PREVIEW.jpg');
+    background-repeat: no-repeat;
+    opacity:10%;
+    height: 1970px;
+    width: 1240px;
+    position: fixed;
+    top: 300px;
+
+   }
+#logo {
+    margin-left: 15px;
+    display: inline-block;
+}
+
+.rightlogos li {
+    display: inline;
+}
+
+#rightLogos {
+    float: right;
+}
+
+.spacer {
+    width: 500px;
+    height: 10px;
+    color: white;
+}
+
+.sep1 {
+    border-image-source: url("img/hr-img.png");
+    border-image-repeat: repeat repeat;
+    border-image-width: 0px;
+    background-color: aqua;
+    margin-top: 20px;
+    height: 20px;
+    border-image-slice: 0 0 0 0 fill;
+}
+
+#pizza {
+    margin: 50px;
+}
+
+#choco {
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+
+#posted {
+    font-family: 'Abel', sans-serif;
+    margin-left: 10px
+}
+
+.recipe {
+    margin-bottom: 20px;
+    margin-top: 20px
+}
+
+#list {
+    margin: 20px;
+}
